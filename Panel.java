@@ -38,8 +38,8 @@ public class Panel extends javax.swing.JFrame {
                      
         try { // Connection to Database
             DB_URL = "jdbc:mysql://db4free.net:3306/saksoo";
-            username = "saksoo";
-            password = "saksoo3377";
+            username = "";
+            password = "";
             T = "2000";
  
             Class.forName("com.mysql.jdbc.Driver");
@@ -465,7 +465,7 @@ public class Panel extends javax.swing.JFrame {
         jTextArea1.setColumns(10);
         jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
         jTextArea1.setRows(10);
-        jTextArea1.setText("Copyright © 2014 by Saksoo\n\nAll rights reserved. This application or any \nportion thereof may not be reproduced or copied \nin any manner whatsoever without the express \nwritten permission of the developer except for \nthe use of personal use.");
+        jTextArea1.setText("Copyright Â© 2014 by Saksoo\n\nAll rights reserved. This application or any \nportion thereof may not be reproduced or copied \nin any manner whatsoever without the express \nwritten permission of the developer except for \nthe use of personal use.");
         jScrollPane2.setViewportView(jTextArea1);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
